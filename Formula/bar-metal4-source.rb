@@ -1,9 +1,9 @@
 class BarMetal4Source < Formula
   desc "Contributor source snapshot for the experimental BAR Metal 4 port (not a game app)"
   homepage "https://github.com/yeojuny/BAR-Metal4"
-  url "https://github.com/yeojuny/BAR-Metal4/releases/download/source-2026.10.23/bar-metal4-source-2026.10.23.tar.gz"
-  version "2026.10.23"
-  sha256 "ea2f4662f83c07ead18f20001c4525ce37cfc97757c963b9a162d01a545e494f"
+  url "https://github.com/yeojuny/BAR-Metal4/releases/download/source-2026.10.23.1/bar-metal4-source-2026.10.23.1.tar.gz"
+  version "2026.10.23.1"
+  sha256 "3286f3d6b23ec43882738f194cb0d972a26aac56137dc6cb3a31eb9a5db5e20d"
 
   def install
     (share/"bar-metal4-source").install Dir["*"].reject { |p| p == "bin" }
