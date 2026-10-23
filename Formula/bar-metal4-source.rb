@@ -1,9 +1,9 @@
 class BarMetal4Source < Formula
   desc "Contributor source snapshot for the experimental BAR Metal 4 port (not a game app)"
   homepage "https://github.com/yeojuny/BAR-Metal4"
-  url "https://github.com/yeojuny/BAR-Metal4/releases/download/source-2026.10.19/bar-metal4-source-2026.10.19.tar.gz"
-  version "2026.10.19"
-  sha256 "55f3797ef2223a311a62d5f235d5b739924ebf6088974a4dcdb78caa3a58029d"
+  url "https://github.com/yeojuny/BAR-Metal4/releases/download/source-2026.10.23/bar-metal4-source-2026.10.23.tar.gz"
+  version "2026.10.23"
+  sha256 "ea2f4662f83c07ead18f20001c4525ce37cfc97757c963b9a162d01a545e494f"
 
   def install
     (share/"bar-metal4-source").install Dir["*"].reject { |p| p == "bin" }
@@ -20,7 +20,7 @@ class BarMetal4Source < Formula
     <<~EOS
       This package installs source and documentation, not BAR.app.
       Read #{opt_share}/bar-metal4-source/docs/REPRODUCING.md for build gaps.
-      The source snapshot predates the latest local performance experiments.
+      Cumulative correctness fixes through AI26; performance optimizations excluded.
     EOS
   end
 
