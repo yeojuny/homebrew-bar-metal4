@@ -7,11 +7,13 @@ class BarMetal4Source < Formula
 
   def install
     (share/"bar-metal4-source").install Dir["*"].reject { |p| p == "bin" }
+    bin.mkpath
     (bin/"bar-metal4-source").write <<~SH
       #!/bin/sh
       printf '%s\n' 'Experimental contributor source kit; no playable BAR.app is installed.'
       printf '%s\n' '#{opt_share}/bar-metal4-source'
     SH
+    (bin/"bar-metal4-source").chmod 0755
   end
 
   def caveats
