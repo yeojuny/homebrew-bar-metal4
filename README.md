@@ -1,6 +1,8 @@
 # BAR Metal4 for Apple Silicon
 
-Public Homebrew tap for [BAR Metal4 v1.11.1](https://github.com/yeojuny/BAR-Metal4/releases/tag/v1.11.1), using verified candidate 204. macOS 27+ and an Apple Silicon Mac are required.
+Experimental single-player BAR with native Metal 4 for Apple Silicon, macOS 27.2 or later.
+This update fixes scenario selection and adds fullscreen render resolution controls.
+New profiles use 2× health bar scale and height, anti-aliasing off, and VSync off.
 
 ```sh
 brew tap yeojuny/bar-metal4
@@ -9,10 +11,6 @@ brew install --cask yeojuny/bar-metal4/bar-metal4
 open "/Applications/BAR Metal4.app"
 ```
 
-Upgrade with `brew update` then `brew upgrade --cask yeojuny/bar-metal4/bar-metal4`.
+Already installed? Run `brew update` and `brew upgrade --cask yeojuny/bar-metal4/bar-metal4`.
 
-The pinned content formula is installed automatically. No GitHub account or token is required. First launch makes a per-user local copy of the content; allow at least 10 GB free. Defaults are AA 0x and VSync off; saved preferences remain intact. v1.11.1 preserves the installed local game's identity across online content-index refreshes, fixing the repeated-download path on subsequent launches.
-
-The app is ad-hoc signed, not notarized. If blocked, attempt opening, then use System Settings > Privacy & Security > Open Anyway. Experimental single-player; public multiplayer and full visual parity are unverified.
-
-[Full installation and troubleshooting](https://github.com/yeojuny/BAR-Metal4/blob/main/docs/RELEASE-1.11.1.md)
+[Release and downloads](https://github.com/yeojuny/BAR-Metal4/releases/tag/v1.11.2) · [Installation and verification](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.2/docs/RELEASE-1.11.2.md) · [Licenses and provenance](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.2/NOTICE.md)

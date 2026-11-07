@@ -1,6 +1,6 @@
 cask "bar-metal4" do
-  version "1.11.1"
-  sha256 "2180a82b5b2791c01d1065bcb762d28fcb85350e2d836163258d808112aec12f"
+  version "1.11.2"
+  sha256 "a3696fed2b20bc5dfa2bf77f9980dcfdd47da0f06028581d92ec14da3b53bdef"
 
   url "https://github.com/yeojuny/BAR-Metal4/releases/download/v#{version}/BAR-Metal4-#{version}-arm64.zip"
   name "BAR Metal4"
@@ -14,11 +14,12 @@ cask "bar-metal4" do
   app "BAR Metal4.app"
 
   caveats <<~EOS
-    Defaults: anti-aliasing 0x, VSync off. Existing user settings are preserved.
+    Requires macOS 27.2 or later.
+    Defaults: health bar scale and height 2x, anti-aliasing off, VSync off.
     First launch copies the installed game content locally into:
       ~/Library/Application Support/BAR-Metal4
     Allow at least 10 GB free. No GitHub authentication is required.
-    Ad-hoc signed, not Apple notarized; approve in Privacy & Security if blocked.
-    Experimental single-player; public multiplayer/full pixel parity unverified.
+    Ad-hoc signed; approve in Privacy & Security if blocked.
+    Experimental single-player.
   EOS
 end
