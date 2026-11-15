@@ -1,7 +1,7 @@
 # BAR Metal4 for Apple Silicon
 
 Experimental single-player BAR with native Metal 4 for Apple Silicon, macOS 27.2 or later.
-This update fixes scenario selection and adds fullscreen render resolution controls.
+This release integrates the reviewed BEGIN/PREPARE handoff corrections and bounded critical-path diagnostics.
 New profiles use 2× health bar scale and height, anti-aliasing off, and VSync off.
 
 ```sh
@@ -13,6 +13,6 @@ open "/Applications/BAR Metal4.app"
 
 Already installed? Run `brew update` and `brew upgrade --cask yeojuny/bar-metal4/bar-metal4`.
 
-[Release and downloads](https://github.com/yeojuny/BAR-Metal4/releases/tag/v1.11.3) · [Installation and verification](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.3/docs/RELEASE-1.11.3.md) · [Licenses and provenance](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.3/NOTICE.md)
+[Release and downloads](https://github.com/yeojuny/BAR-Metal4/releases/tag/v1.11.3) · [Installation and verification](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.3/docs/releases/v1.11.3/README.md) · [Licenses and provenance](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.3/NOTICE.md)
 
 The v1.11.3 engine defaults to PREPARE with diagnostics and Metal Validation off. [Changes and validation limits](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.3/docs/releases/v1.11.3/README.md).
