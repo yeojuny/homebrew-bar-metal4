@@ -1,6 +1,6 @@
 cask "bar-metal4" do
-  version "1.11.4"
-  sha256 "69905c6da6e2b58f4218278c3e3c7d68caf44f07bdc7e9070cc8bd3d17c389e1"
+  version "1.11.5"
+  sha256 "66700a7e3acb7091713f925db9ccc5d1f88c1536f5e489174dd1bd6aa3f2b783"
 
   url "https://github.com/yeojuny/BAR-Metal4/releases/download/v#{version}/BAR-Metal4-#{version}-arm64.zip"
   name "BAR Metal4"
