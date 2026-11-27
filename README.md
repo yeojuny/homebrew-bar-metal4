@@ -13,6 +13,6 @@ open "/Applications/BAR Metal4.app"
 
 Already installed? Run `brew update` and `brew upgrade --cask yeojuny/bar-metal4/bar-metal4`.
 
-[Release and downloads](https://github.com/yeojuny/BAR-Metal4/releases/tag/v1.11.6) · [Installation and verification](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.6/docs/releases/v1.11.6/README.md) · [Licenses and provenance](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.6/NOTICE.md)
+[Release and downloads](https://github.com/yeojuny/BAR-Metal4/releases/tag/v1.11.61) · [Installation and verification](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.61/docs/releases/v1.11.61/README.md) · [Licenses and provenance](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.61/NOTICE.md)
 
-The v1.11.6 engine defaults to PREPARE with CAP2 with diagnostics and Metal Validation off. [Changes and validation limits](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.6/docs/releases/v1.11.6/README.md).
+The v1.11.61 engine defaults to PREPARE with CAP2 with diagnostics and Metal Validation off. [Changes and validation limits](https://github.com/yeojuny/BAR-Metal4/blob/v1.11.61/docs/releases/v1.11.61/README.md).
